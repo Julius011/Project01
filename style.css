@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: solid 2px black;
+    background-color:black;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    color:rgba(255, 255, 255, 0.781);
+    margin-left: 25px;
+    text-transform:capitalize;
+    margin-top: 8px;
+}
+
+a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+    background-color:#401F32;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 5px;
+}
+
+a:hover {
+    background-color:rgba(255, 0, 0, 0.658);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+h2 {
+   margin-top: 150px;
+   margin-left: 150px;
+   font-size: 90px;
+   color: rgba(255, 255, 255, 0.856);
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 170px;
+    font-size: 30px;
+    color:rgba(255, 255, 255, 0.856);
+}
+
+.hr1{
+    margin-top: 380px;
+}
+
+.Background1{
+    background-image: url('darkforest.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 400px;
+}
+
+.Vertline {
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    margin-right: 300px;
+    height: 2000px;
+    margin-left: 300px;
+    background-image: url('black.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    color: gray;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.HeadlineText{
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 50px;
+    margin-left: 110px;
+}
+
+.protagonist{
+    color: #91224cc9;
+}
+
+.backgroundside {
+    background-image: url('tapet.jpg');
+}

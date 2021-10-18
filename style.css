@@ -78,7 +78,7 @@ h3 {
     border-left: 6px solid black;
     border-right: 6px solid black;
     margin-right: 300px;
-    height: 2000px;
+    height: 2900px;
     margin-left: 300px;
     background-image: url('black.jpg');
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ h3 {
 }
 
 p {
-    color: gray;
+    color: white;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     margin-bottom: 15px;
@@ -102,7 +102,21 @@ p {
 }
 
 .protagonist{
-    color: #91224cc9;
+    color: red;
+}
+
+.protagonist-Historia {
+    color: rgb(245, 122, 122);
+}
+
+.Brother {
+    color: greenyellow;
+}
+
+.slut {
+    color: rgba(255, 255, 255, 0.781);
+    margin-left: 50px;
+    
 }
 
 .backgroundside {

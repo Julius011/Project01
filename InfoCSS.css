@@ -37,7 +37,7 @@ a {
     margin-right: 5px;
 }
 
-a:hover {
+.BarLink:hover {
     background-color:rgba(255, 0, 0, 0.658);
 }
 
@@ -49,8 +49,32 @@ nav {
 
 h2 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.856);;
+}
+
+.QuestionAndAswers {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 30px;
+    color: white;
+}
+
+.Question {
+    margin-left: 25px;
+    color:rgb(138, 55, 90)
+}
+
+.Answer {
+    margin-left: 75px;
+    color: white;
+    font-size: 20px;
+}
+
+.LinkStory {
+    color: rgb(204, 159, 159);
+    background-color: none;
+    display: contents;
 }
 

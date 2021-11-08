@@ -51,25 +51,21 @@ h2 {
     text-align: center;
     margin-top: 25px;
     font-size: 50px;
-    color: rgba(255, 255, 255, 0.856);;
+    color: rgba(255, 255, 255, 0.856);
 }
 
-.QuestionAndAswers {
+p {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.HeadlineInfo {
     text-align: left;
     margin-top: 25px;
     font-size: 30px;
     color: white;
-}
-
-.Question {
-    margin-left: 25px;
-    color:rgb(138, 55, 90)
-}
-
-.Answer {
-    margin-left: 75px;
-    color: white;
-    font-size: 20px;
 }
 
 .LinkStory {
@@ -78,3 +74,10 @@ h2 {
     display: contents;
 }
 
+.HeadInfoQuestion {
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.SpaceBetweenQuestionAndAswer {
+    color: rgba(0, 0, 0, 0.856);
+}

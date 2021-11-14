@@ -21,9 +21,10 @@ header {
 
 header h1 {
     color:rgba(255, 255, 255, 0.781);
-    margin-left: 25px;
+    margin-left: 3vmax;
     text-transform:capitalize;
-    margin-top: 8px;
+    margin-top: 0.5vmax;
+    font-size: 200%;
 }
 
 a {
@@ -49,21 +50,21 @@ nav {
 
 h2 {
     text-align: center;
-    margin-top: 25px;
-    font-size: 50px;
+    margin-top: 2vmax;
+    font-size: 4vmax;
     color: rgba(255, 255, 255, 0.856);
 }
 
 p {
     text-align: center;
-    font-size: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
+    font-size: 2vmax;
+    margin-left: 3vmax;
+    margin-right: 3vmax;
 }
 
 .HeadlineInfo {
     margin-top: 25px;
-    font-size: 30px;
+    font-size: 2vmax;
     color: white;
 }
 
